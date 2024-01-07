@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assirem</title>
+    <link rel="stylesheet" href="info.css">
+</head>
+
+<body>
+    <script src="https://kit.fontawesome.com/b8aa502867.js" crossorigin="anonymous"></script>
+    <header>
+        <a id="logo" href="../../index.html">
+            <img class="logo" src="../../first one.png" alt="">
+        </a>
+        <div class="nav-bar">
+            <input type="checkbox" id="check">
+            <label for="check" class="checkbtn">
+                <i class="fa-solid fa-bars fa-2xl"></i>
+            </label>
+            <ul>
+                <li><a class="active" href="../../index.html">Accueil</a></li>
+                <li><a href="../../apropos.html">À propos</a></li>
+                <li><a href="../../cantactez.html">contactez-nous</a></li>
+            </ul>
+        </div>
+    </header>
+    <div id="popup3" class="popup3">
+
+        <div class="item">
+            <a href="cours/modules l1.html">
+                <img src="cour.png">
+                <p>Cour</p>
+            </a>
+        </div>
+
+        <div class="item">
+            <a href="l2.html">
+                <img src="exam.png">
+                <p>Examein</p>
+            </a>
+        </div>
+
+    </div>
+    <div class="over-popup">
+        <div class="popup2">
+            <h2>Choissisez votre niveau</h2>
+            <a href="modules l1.html" >Licence 1</a>
+            <a href="l2.html">Licence 2</a>
+            <a href="" onclick="mymessage1()" >Licence 3</a>
+            <a href="" onclick="mymessage2()">Master 1</a>
+            <a href="" onclick="mymessage3()">Master 2</a>
+        </div>
+    </div>
+    <script>
+        let popup = document.getElementById("popup3");
+        function openPoup() {
+            popup.classList.add("open-popup3");
+        }
+        function mymessage1() {
+            prompt("l3 n'est pas disponible pour le moment ");
+        }
+        function mymessage2() {
+            prompt("m1 n'est pas disponible pour le moment ");
+        }
+        function mymessage3() {
+            prompt("m2 n'est pas disponible pour le moment ");
+        }
+    </script>

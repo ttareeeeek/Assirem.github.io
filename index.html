@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+
+    <title>Assirem</title>
+    <link rel="stylesheet" href="assirem.css">
+</head>
+<header>
+    <a id="logo" href="home.html">
+        <img class="logo" src="first one.png" alt="">
+    </a>
+
+    <div class="nav-bar">
+        <input type="checkbox" id="check">
+        <label for="check" class="checkbtn">
+            <i class="fa-solid fa-bars fa-2xl"></i>
+        </label>
+        <ul>
+            <li><a class="active" href="index.html">Accueil</a></li>
+            <li><a href="apropos.html">À propos</a></li>
+            <li><a href="cantactez.html">contactez-nous</a></li>
+        </ul>
+    </div>
+</header>
+
+<body>
+    <div class="content">
+    <script src="https://kit.fontawesome.com/b8aa502867.js" crossorigin="anonymous"></script>
+    <img id="bgimg" class="bgimg" src="university.jpg">
+
+    <div class="home-text">
+        <h1 class="univ">ASSIREM</h1>
+        <h2 class="univ">Association Scientifique et Culturelle</h2>
+        <h3 class="univ">Université Abderrahmane Mira, Bejaïa, Algérie</h3>
+    </div>
+        <div class="popup" id="popup">
+            <p class="popup-text">CHOISSISEZ VOTRE CATEGORIE :</p>
+            <div class="popup-content">
+                <div class="pedagogique">
+                    <a href="pedagogie.html">
+                        <img src="pedagogi.png">
+                    </a>
+                    <p>Coté pédagogique</p>
+                </div>
+                <div class="container">
+                    <div class="content">
+                    </div>
+                </div>
+
+                <div class="social">
+                    <a href="discovering.html">
+                        <img src="social.png">
+                    </a>
+                    <p>Coté sociale</p>
+
+                </div>
+            </div>
+        </div>
+       
+    
+</div>
+<div class="descover">
+    <a onclick="openPoup()">Découvrez maintenant</a>
+</div>
+
+
+
+    <script>
+        let popup = document.getElementById("popup");
+        function openPoup() {
+            popup.classList.add("open-popup");
+        }
+    </script>
+</body>
+<footer>
+</footer>
+</html>

@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assirem</title>
+    <link rel="stylesheet" href="../info/info.css">
+</head>
+
+<body>
+    <script src="https://kit.fontawesome.com/b8aa502867.js" crossorigin="anonymous"></script>
+    <header>
+        <a id="logo" href="home.html">
+            <img class="logo" src="../../first one.png" alt="">
+        </a>
+        <div class="nav-bar">
+            <input type="checkbox" id="check">
+            <label for="check" class="checkbtn">
+                <i class="fa-solid fa-bars fa-2xl"></i>
+            </label>
+            <ul>
+                <li><a class="active" href="../../home.html">Accueil</a></li>
+                <li><a  href="../../apropos.html">À propos</a></li>
+                <li><a href="../../cantactez.html">contactez-nous</a></li>
+            </ul>
+        </div>
+    </header>
+    <div class="cantainer">
+        <h3>Modules l2 Biologie</h3>
+        <h2>Semestre 1</h2>
+        <div class="exam">
+            <a href="l2/s1/zoologie/l2-anlyse.html">Zoologie</a>
+            <a href="l2/s1/biochimie/l2-anlyse.html">Biochimie</a>
+            <a href="l2/s1/genetique/l2-anlyse.html">Génétique</a>
+            <a href="l2/s1/biophysique/l2-anlyse.html">BIOPHYSIQUE</a>
+        </div>
+        <div class="exam">
+
+            <h2>Semestre 2</h2>
+            <a href="l2/s2/botanique/l2-anlyse.html">Botanique</a>
+            <a href="l2/s2/microbiologie/l2-anlyse.html">Microbiologie</a>
+            <a href="l2/s2/immunatique/l2-anlyse.html">Immunologie</a>
+            <a href="math/l1-math.html">Biostatistique</a>
+        </div>
+    </div>
+    
+    <style>
+        .cantainer {
+            margin: 50px;
+            border-radius: 20px;
+            padding: 10px;
+            background-color: rgb(25, 27, 31);
+        }
+
+        .cantainer .exam a {
+            display: flex;
+            padding: 15px;
+            margin-left: 5px;
+            color: blueviolet;
+            text-decoration: none;
+            width: 80%;
+            text-transform: uppercase;
+            overflow: hidden;
+
+            
+        }
+        .cantainer .exam a:hover{
+            color: rgb(85, 0, 164);
+            transition: ease-in-out 0.3s;
+            margin-right: 5px;
+        }
+    </style>

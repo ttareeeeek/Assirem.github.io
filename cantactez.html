@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+
+    <title>Assirem</title>
+    <link rel="stylesheet" href="cantactez.css">
+</head>
+
+
+<body>
+    <script src="https://kit.fontawesome.com/b8aa502867.js" crossorigin="anonymous"></script>
+
+
+
+
+
+    <div class="cantainer">
+        <div class="item">
+            <div class="cantact">
+                <div class="first-text">
+                    Contactez Notre Assossiation
+                </div>
+
+                <img class="imgg" src="first one (2).png" alt="">
+                <div class="socia">
+                    <span class="second-text">Contactez Avec Nous :</span>
+                    <ul class="social-media">
+                        <li><a href=""><i class="fa-brands fa-facebook"></i></a></li>
+                        <li><a href=""><i class="fa-brands fa-instagram"></i></a></li>
+                        <li><a href=""><i class="fa-brands fa-telegram"></i></a></li>
+                    </ul>
+                </div>
+                <div class="submit-form"></div>
+            </div>
+            <div class="submit-form">
+                <h4 class="third-text">Contactez Nous</h4>
+                <form action="https://formspree.io/f/xayrykkd" method="post">
+                    <div class="input-box">
+                        <input name="email" id="email" type="email" class="input" required>
+                        <label for="">Email</label>
+                    </div>
+                    <div class="input-box">
+                        <input name="specialite" type="text" class="input" required>
+                        <label for="">specialite</label>
+                    </div>
+                    <div class="input-box">
+                        <textarea name="message" class="input" required id="Message" cols="30" rows="10"></textarea>
+                        <label for="">Message</label>
+                    </div>
+                    <input class="btn" type="submit" value="submit">
+                </form>
+            </div>
+            
+        </div>
+
+    </div>
+    <script>
+        function submitForm() {
+            document.getElementById("uploadForm").submit();
+        }
+    </script>
+    <script src="https://smtpjs.com/v3/smtp.js"></script>
+</body>

@@ -1,0 +1,251 @@
+body {
+  background-color: #1d2026;
+}
+
+.logo {
+
+  height: 150px;
+  width: 150px;
+  margin-top: -40px;
+  margin-left: -40px;
+
+}
+
+header {
+  padding: 20px 60px;
+  justify-content: space-between;
+  display: flex;
+
+}
+
+header a {
+  text-decoration: none;
+  font-size: 13pt;
+  font-family: 'poppins', sans-serif;
+  color: white;
+  flex: 1;
+  text-align: left;
+}
+
+
+.nav-bar ul li {
+  display: inline-block;
+  padding-right: 20px;
+
+
+}
+
+.nav-bar ul li a {
+  text-decoration: none;
+  color: white;
+  text-transform: uppercase;
+  padding: 10px 8px;
+  border-radius: 7px;
+}
+
+.active,
+a:hover {
+  background-color: #1b9bff;
+  transition: .5s;
+}
+
+.checkbtn {
+  color: white;
+  float: right;
+  margin-right: 5px;
+  margin-top: 20px;
+  display: none;
+  cursor: pointer;
+}
+
+#check {
+  display: none;
+}
+
+@media (max-width:858px) {
+
+  .checkbtn {
+    display: block;
+  }
+
+  ul {
+    position: fixed;
+    width: 100%;
+    height: 125vh;
+    background-color: #14161b;
+    z-index: 9999;
+    top: 80px;
+    text-align: center;
+    left: -110%;
+    transition: all .5s;
+
+  }
+
+  .nav-bar ul li {
+    display: block;
+    padding: 40px;
+  }
+
+  .nav-bar ul li a {
+    font-size: 20px;
+    font-weight: bold;
+  }
+
+
+  #check:checked~ul {
+    left: 0;
+  }
+}
+
+h3 {
+  color: beige;
+  font-size: 20pt;
+  font-family: 'poppins', sans-serif;
+  margin-top: 15%;
+  margin-left: 10px;
+
+}
+
+h4 {
+  color: beige;
+  font-size: 14pt;
+  font-family: 'poppins', sans-serif;
+  margin-top: 5%;
+
+}
+
+.cantainer {
+  width: 90%;
+  background-color: #101216;
+  border-radius: 40px;
+  overflow: hidden;
+  height: 500px;
+
+}
+
+form {
+  max-width: 400px;
+  margin: auto;
+  border-radius: 10px;
+  padding: 80px 80px;
+  box-shadow: 2px 0px 132px -4px rgba(13, 104, 165, 0.58);
+  margin-left: 59%;
+  transform: -50%, -50%;
+  transition: 1s;
+  height: 100%;
+}
+
+.logo-s {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  top: 100px;
+  position: absolute;
+  background-color: #101216;
+}
+
+label {
+  color: wheat;
+  font-size: 12pt;
+  font-family: 'poppins', sans-serif;
+}
+
+input[type="submit"] {
+  background-color: hsl(120, 16%, 10%);
+  /* Background color */
+  color: #fff;
+  /* Text color */
+  padding: 10px 20px;
+  /* Padding */
+  border: none;
+  /* No border */
+  border-radius: 10px;
+  /* Rounded corners */
+  cursor: pointer;
+  /* Cursor on hover */
+}
+
+input {
+  padding-right: 80px;
+  background-color: rgb(17, 22, 25);
+  padding-left: 20px;
+  border-bottom: 1px solid gray !important;
+  border: none;
+  background: transparent;
+  outline: none;
+  height: 40px;
+  color: white;
+  font-size: 15px;
+}
+
+/* Style the button on hover */
+input[type="submit"]:hover {
+  background-color: #2865a7;
+  /* Darker background color on hover */
+  transition: all 0.6s ease;
+}
+
+form a {
+  color: grey;
+  text-decoration: underline;
+  font-family: 'poppins', sans-serif;
+
+}
+
+.show-text p{
+  transition: 1.5s;
+  margin-top: 50px;
+  padding-left: 8px;
+  padding-top: 0px;
+  color: wheat; 
+  font-size: 20px;
+  margin-left: 90%;
+  width: 300%;
+  height: auto;
+  border-left:1px solid wheat ;
+}
+
+
+.reversing{
+  margin-left: 0px;
+}
+
+.cantainer .text{
+  position: absolute;
+  margin-left: 30%;
+  visibility: visible;
+  width: 230px;
+}
+
+.cantainer .text h2,
+p{
+  color: white;
+  font-size: 16px;
+ line-height: 40px;
+  font-family: arial;
+  color: #101216;
+}
+.img-show img{
+ width: 150x;
+ height: 150px;
+ z-index: 9999;
+ background-color: #fff;
+ border-radius:60% ;
+ background-color: #101216;
+}
+.img-show{
+  justify-content: space-between;
+  margin-left: 50%;
+  visibility: hidden;
+  margin-top:-120px;
+  display: flex;
+  width: 400px;
+}
+.show-imgg{
+  margin-top: -180px;
+  transition: 0.8s;
+  visibility: visible;
+  
+}
+
+

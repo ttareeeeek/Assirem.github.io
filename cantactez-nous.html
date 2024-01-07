@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>cantactez-nous</title>
+    <link rel="stylesheet" href="cantactez-nous.css">
+</head>
+
+<body>
+    <header>
+        <a id="logo" href="home.html">
+            <img class="logo" src="first one.png" alt="">
+        </a>
+        <div class="nav-bar">
+            <input type="checkbox" id="check">
+            <label for="check" class="checkbtn">
+                <i class="fa-solid fa-bars fa-2xl"></i>
+            </label>
+            <ul>
+                <li><a class="active" href="home.html">Accuile</a></li>
+                <li><a  href="apropos.html">À propos</a></li>
+                <li><a href="cantactez-nous.html">Inscriez-vous</a></li>
+                <li><a  href="cantactez-nous.html">cantactez-nous</a></li>
+            </ul>
+        </div>
+    </header>
+
+    <div class="cantainer">
+        <div id="text" class="text">
+            <p>Bienvenue dans notre espace dédié aux échanges ! Chez Assirem nous sommes toujours ravis d'entendre
+                parler de vous <br>
+                Que vous ayez des questions, des commentaires, ou que vous souhaitiez simplement <br>
+                discuter, notre équipe est là pour vous écouter.Voisi notre e-mail
+                Tarekmechtaoui80@gmail.com </p>
+        </div>
+
+        <form action="process-signup.php" method="post">
+            <img class="logo-s" src="sginup-removebg-preview.png">
+            <label for="email">E-mail</label><br><br>
+            <input placeholder=" Entrez votre email" type="email" name="email"><br><br>
+
+            <label for="email">Mot de pass</label><br><br>
+            <input placeholder=" Entrez votre mot de pass" id="email" name="email"><br><br>
+
+            <label for="email">Confirmer votre Mot de pass</label><br><br>
+            <input placeholder=" Entrez votre mot de pass" id="email" name="email"><br><br>
+
+            <input id="submit" type="submit" value="Submit"><br><br>
+            <a href="##">Enregistrez vous ici !</a>
+        </form>
+    </div>
+    <div id="show-img" class="img-show">
+         <img src="vv.png">
+         <img src="book.png">
+    </div>   
+    <script>
+        let showimgg = document.getElementById("show-img");
+        let showtext = document.getElementById("text");
+        let reverses = document.getElementById("forming");
+        function reverse() {
+            reverses.classList.add("reversing");
+            showtext.classList.add("show-text");
+            showimgg.classList.add("show-imgg");
+        }
+    </script>
+
+
+
+
+    <footer>
+    </footer>
+</body>
+
+
+
+</html>

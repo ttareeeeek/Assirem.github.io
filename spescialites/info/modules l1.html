@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assirem</title>
+    <link rel="stylesheet" href="info.css">
+</head>
+
+<body>
+    <script src="https://kit.fontawesome.com/b8aa502867.js" crossorigin="anonymous"></script>
+    <header>
+        <a id="logo" href="../../index.html">
+            <img class="logo" src="../../first one.png" alt="">
+        </a>
+        <div class="nav-bar">
+            <input type="checkbox" id="check">
+            <label for="check" class="checkbtn">
+                <i class="fa-solid fa-bars fa-2xl"></i>
+            </label>
+            <ul>
+                <li><a class="active" href="../../index.html">Accueil</a></li>
+                <li><a href="../../apropos.html">À propos</a></li>
+                <li><a href="../../cantactez.html">contactez-nous</a></li>
+            </ul>
+        </div>
+    </header>
+    <div class="cantainer">
+        <h3>Modules l1 informatique</h3>
+        <h2>Semestre 1</h2>
+        <div class="exam">
+            <a href="analyse/l1-analyse.html">- Analyse</a>
+            <a href="examein l1 algebre/l1.html">- Algebre</a>
+            <a href="se/l1-se.html">- System D'exploitation 1</a>
+            <a href="archi/l1-archi.html">- Architecteur des machine</a>
+            <a href="algo/l1-algo.html">- Algorithme</a>
+            <a href="bew/l1-bew.html">- bureautique et web</a>
+        </div>
+        <div class="exam">
+
+            <h2>Semestre 2</h2>
+            <a href="s2/analyse/l1-analyse.html">- Analyse 2</a>
+            <a href="s2/examein l1 algebre/l1.html">- Algebre 2</a>
+            <a href="s2/se/l1-se.html">- System D'exploitation 2</a>
+            <a href="s2/proba et stat/l1.html">- Probabeletes-Statistique </a>
+            <a href="s2/algo/l1-algo.html">- Algorithme 2</a>
+            <a href="s2/LM/l1.html">- Logique mathematique</a>
+        </div>
+    </div>
+    
+    <style>
+        .cantainer {
+            margin: 50px;
+            border-radius: 50px;
+            padding: 10px;
+            background-color: #18191f;
+        }
+
+        .cantainer .exam a {
+            display: flex;
+            padding: 15px;
+            margin-left: 30px;
+            color: blueviolet;
+            text-decoration: none;
+            width: 250px;
+            text-transform: uppercase;
+
+            
+        }
+        .cantainer .exam a:hover{
+            color: rgb(85, 0, 164);
+            transition: ease-in-out 0.3s;
+            margin-right: 5px;
+        }
+
+        @media (max-width:985px){
+            .cantainer .exam a {
+              font-size: 8pt;
+              margin-left: -20px;
+              overflow: hidden;
+              display: inline-block;
+
+            }
+            .cantainer {
+                width: 50%;
+                overflow: hidden;
+            }
+            h2{
+                font-size: 12pt;
+            }
+            
+
+        }
+        
+
+    </style>

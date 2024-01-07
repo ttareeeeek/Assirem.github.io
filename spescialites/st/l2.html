@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assirem</title>
+    <link rel="stylesheet" href="info.css">
+</head>
+
+<body>
+    <script src="https://kit.fontawesome.com/b8aa502867.js" crossorigin="anonymous"></script>
+    <header>
+        <a id="logo" href="../../index.html">
+            <img class="logo" src="../../first one.png" alt="">
+        </a>
+        <div class="nav-bar">
+            <input type="checkbox" id="check">
+            <label for="check" class="checkbtn">
+                <i class="fa-solid fa-bars fa-2xl"></i>
+            </label>
+            <ul>
+                <li><a class="active" href="../../index.html">Acceuil</a></li>
+                <li><a  href="../../apropos.html">À propos</a></li>
+                <li><a href="../../cantactez.html">cantactez-nous</a></li>
+            </ul>
+        </div>
+    </header>
+    <div class="cantainer">
+        <h3>Modules l2 st</h3>
+        <h2>Semestre 1</h2>
+        <div class="exam">
+            <a href="l2/math/l1-chimie.html">math</a>
+            <a href="l2/electrothecnique/l1-chimie.html">Électrotechnique</a>
+            <a href="l2/dessin tech/l1-chimie.html">Dessein technique</a>
+            <a href="l2/geneciville/l1-chimie.html">Génie civil</a>
+            <a href="l2/genemic/l1-chimie.html">Génie mécanique</a>
+            <a href="l2/mecan des fluides/l1-chimie.html">Mécanique des fluides</a>
+            <a href="l2/gene des proc/l1-chimie.html">Génie des procèdes</a>
+            <a href="l2/chimie/l1-chimie.html">Chimie analytique</a>
+            <a href="l2/thermodynamique/l1-chimie.html">Thermodynamique</a>
+            <a href="l2/chimie organic/l1-chimie.html">chimie orgamic</a>
+        </div>
+        <div class="exam">
+        </div>
+    </div>
+    
+    <style>
+        .cantainer {
+            margin: 30px;
+            border-radius: 20px;
+            padding: 10px;
+            background-color: #18191f;
+        }
+
+        .cantainer .exam a {
+            display: flex;
+            padding: 15px;
+            margin-left: 30px;
+            color: blueviolet;
+            text-decoration: none;
+            width: 110px;
+            text-transform: uppercase;
+
+            
+        }
+        .cantainer .exam a:hover{
+            color: rgb(85, 0, 164);
+            transition: ease-in-out 0.3s;
+            margin-right: 5px;
+        }
+       
+        @media (max-width:985px){
+            .cantainer .exam a {
+              font-size: 8pt;
+              margin-left: -20px;
+              overflow: hidden;
+              display: inline-block;
+
+            }
+            .cantainer {
+                width: 50%;
+                overflow: hidden;
+            }
+            h2{
+                font-size: 12pt;
+            }
+            
+
+        }
+        
+
+    </style>
