@@ -152,24 +152,24 @@ body .descover a{
   
 }
 .popup-content .pedagogique p{
-  font-size: 7pt;
+  font-size: 9pt;
 }
 .popup-content .social p{
-  font-size: 7pt;
+  font-size: 9pt;
 }
 .popup .popup-text{
-  font-size: 7pt;
+  font-size: 9pt;
 }
 .home-text h2{
-  font-size: 9pt;
-
-}
-.home-text h1{
   font-size: 13pt;
 
 }
+.home-text h1{
+  font-size: 20pt;
+
+}
 .univ{
-  font-size: 10pt;
+  font-size: 15pt;
 }
 footer h4{
   
